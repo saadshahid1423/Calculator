@@ -1,0 +1,64 @@
+.main{
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    height: 410px;
+    background-color: black;
+    margin-top: 60px;
+    font-size: 22px;
+    border-radius: 5px;
+}    
+.clear{
+    width: 144px;
+    background-color: white;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 2.5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px black;
+    font-size: larger;
+}
+.text{
+    width: 292px;
+    background-color:white;
+    color: black;
+    height: 50px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: right;
+}
+.button{
+    width: 50px;
+    margin-top: 15px;
+    background-color: white;
+    height: 50px;
+    color: black;
+    border-radius: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px black;
+    font-size: larger;
+}
+.operator{
+    width: 50px;
+    margin-top: 0px;
+    background-color: white;
+    height: 60px;
+    color: black;
+    border-radius: 0px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px black;
+    font-size: larger;
+}
+.heading{
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}

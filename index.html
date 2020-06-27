@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Made By Saad Shahid</h1> 
+<div class="main">
+    <div>
+        <input id="result" type="text" class="text" >
+    </div>
+    <div>
+        <button class="clear" style="color: rgb(74, 255, 231);" onclick="clearResult()">C</button>
+        <button class="clear" style="color: crimson;" onclick="back()">CE</button>
+    </div>
+    <div>
+        <button class="button" style="color: royalblue;" onclick="getNumber('7')">7</button>
+        <button class="button" style="color: rgb(65, 225, 164);" onclick="getNumber('8')">8</button>
+        <button class="button" style="color: rgb(156, 0, 143);" onclick="getNumber('9')">9</button>
+        <button class="operator" style="background-color: greenyellow;" onclick="getNumber('*')">x</button>
+    </div>
+    <div>
+        <button class="button" style="color: rgb(252, 97, 8);" onclick="getNumber('4')">4</button>
+        <button class="button" style="color: rgb(250, 3, 196);" onclick="getNumber('5')">5</button>
+        <button class="button" style="color: rgb(92, 225, 65);" onclick="getNumber('6')">6</button>
+        <button class="operator" style="background-color: aqua;" onclick="getNumber('-')">-</button>
+    </div>
+    <div>
+        <button class="button" style="color: rgb(255, 183, 116);" onclick="getNumber('1')">1</button>
+        <button class="button" style="color: rgb(172, 191, 251);" onclick="getNumber('2')">2</button>
+        <button class="button" style="color: rgb(51, 250, 184);" onclick="getNumber('3')">3</button>
+        <button class="operator" style="background-color: yellow;" onclick="getNumber('+')">+</button>
+    </div>
+    <div>
+        <button class="button" style="color: rgb(35, 151, 0);" onclick="getNumber('0')">0</button>
+        <button class="button" onclick="getNumber('.')">.</button>  
+        <button class="button" style="color: rgb(225, 65, 126);" onclick="getResult()">=</button>
+        <button class="operator" style="background-color: red;" onclick="getNumber('/')">÷</button>
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
